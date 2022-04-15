@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "NoShorts",
+  "version": "1.0.0",
+  "action": {},
+  "description": "Replaces YouTube shorts/Id URL with standard watch?v=Id",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "author": "ad3m3r5",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["tabs"]
+}
