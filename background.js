@@ -21,7 +21,6 @@ chrome.tabs.onUpdated.addListener(() => {
 
 function replaceShortsUrl() {
   chrome.tabs.query({url: "*://*.youtube.com/shorts/*"}, (tabs) => {
-    console.log(tabs.length)
     tabs.forEach(tab => {
       chrome.tabs.update(
         tab.id,
